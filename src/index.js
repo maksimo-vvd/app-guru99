@@ -4,11 +4,11 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import COMP_LIFE from './complife.jsx';
+import Form from './form.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <COMP_LIFE />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
