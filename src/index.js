@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './test-state-class-component.jsx';
+// import Hello_func_component from './test-state-function-component.jsx';
+// import Props_to_Class_Component from './test-props-to-class-component';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hello />
   </React.StrictMode>,
+  //   Hello_func_component,
+  // <Props_to_Class_Component msg="Hello, from Guru99 Tutorials! State in ReactJS! Class component. Props to Class Component."/>,
   document.getElementById('root')
 );
 
