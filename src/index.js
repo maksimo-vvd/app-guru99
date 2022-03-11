@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import COMP_LIFE from './complife.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <COMP_LIFE />
   </React.StrictMode>,
   document.getElementById('root')
 );
